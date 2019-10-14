@@ -94,7 +94,7 @@ def printhelp():
 #SECTION: Meraki Dashboard API communication functions
 
 def getInventory(p_org):
-    #returns a list of all networks in an organization
+    #returns a list of all devices in an organization
     
     merakirequestthrottler()
     try:
